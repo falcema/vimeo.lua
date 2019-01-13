@@ -1,8 +1,9 @@
 # vimeo.lua
 Vimeo streaming module for VLC
 
-Fixed vimeo.com URL resolving and title decoding (this module enables VLC to decode escaped utf8 characters)  
-This lua script requires third party utf8 module by Stepets (https://github.com/Stepets/utf8.lua)
+This lua script is a forked version of vimeo.lua in VideoLAN/VLC.  
+I improved vimeo.com URL resolving and title decoding (this module enables VLC to decode escaped utf8 characters)  
+This module requires third-party utf8 module by Stepets (https://github.com/Stepets/utf8.lua)
 
 Original Copyright © 2009-2013 the VideoLAN team  
 Authors: Konstantin Pavlov (thresh@videolan.org)  
